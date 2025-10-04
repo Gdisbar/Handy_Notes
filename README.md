@@ -1,9 +1,5 @@
 # Handy_Notes
 
-Got it 👍 You’ve got **three different projects** described here (Speech Analytics, RMF Analysis, Ticket Routing Automation). I’ll format them cleanly so it looks professional and easy to read.
-
-Here’s a structured version:
-
 ---
 
 # 🔹 Project 1: Speech Analytics for ASR & Transcript Clean-up
