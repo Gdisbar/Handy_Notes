@@ -117,3 +117,30 @@ Segment customers based on **Recency, Frequency, Monetary (RFM)** for payment be
    * If single team → assign.
    * If multiple → assign to primary + notify secondary teams.
 
+Distinguish alerts (informational, non-actionable) from formal tickets (actionable incidents) by analyzing description language patterns, severity, verbs, context, and calls to action.
+
+## Step 1: Severity Indicators
+Scan for service interruption details.
+
+- **Ticket/Incident**: "down", "offline", "unresponsive", "unavailable", "error rate 100%", "users impacted", "cannot access". Example: "Primary auth service down; 500 users blocked."
+- **Alert**: "exceeded threshold", "high CPU", "warning", "spike detected". Example: "CPU >80% on WebServer-04 for 15min."
+
+## Step 2: Actionable Verbs
+Check verb types for implied response needs.
+
+- **Ticket/Incident**: Implies fix/restore (e.g., "need to restore connectivity").
+- **Alert**: Stative reporting (e.g., "disk space is low").
+
+## Step 3: System Context
+Evaluate specificity to business assets.
+
+- **Ticket/Incident**: Named critical systems (e.g., "SAP payroll down during close").
+- **Alert**: Generic metrics (e.g., "Ping failed on 10.0.0.45").
+
+## Step 4: Calls to Action
+Look for explicit directives.
+
+- **Ticket/Incident**: "Requires investigation", "Priority 1", "Engage L2".
+- **Alert**: "Informational", "Auto-remedied", "No action unless persistent".
+
+Integrate this into your LLM ticket assistant via prompt engineering or fine-tuning classifiers on these patterns for automated routing.
