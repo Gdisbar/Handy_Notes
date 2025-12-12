@@ -1,7 +1,7 @@
 
 ---
 
-# 1) One-minute elevator (say this early in an interview)
+# 1) One-minute elevator 
 
 * **LLMs = large Transformer-based decoder models** trained on massive unsupervised corpora; they’re *foundation models* you adapt via prompting, retrieval, or fine-tuning.
 
@@ -483,6 +483,7 @@ Techniques:
 
    * Use live logs to detect drift
    * Flag sudden behavior changes
+
 
 
 
