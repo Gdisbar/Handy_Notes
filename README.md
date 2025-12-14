@@ -18,6 +18,8 @@
 
 [Understanding LLM](https://magazine.sebastianraschka.com/p/understanding-large-language-models)
 
+[Building LLM Playlist](https://www.youtube.com/playlist?list=PLPTV0NXA_ZSgsLAr8YCgCwhPIJNNtexWu)
+
 [Build Small LLM](https://www.youtube.com/watch?v=KOXaH7-0gEE)
 
 [Reproduce GPT-2](https://www.youtube.com/watch?v=l8pRSuU81PU)
