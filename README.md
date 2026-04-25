@@ -57,6 +57,10 @@
 
 [Code Interpreter Baseline](https://www.kaggle.com/code/huikang/code-interpreter-baseline)
 
+# Index
+
+[Material Index](https://mimansajaiswal.github.io/posts/llm-ml-job-interviews-resources/)
+
 # RAG
 
 [AI-Bank Statement RAG](https://github.com/johnsonhk88/AI-Bank-Statement-Document-Automation-By-LLM-And-Personal-Finanical-Analysis-Prediction)
